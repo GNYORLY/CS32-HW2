@@ -1,0 +1,45 @@
+--------------Question 2--------------
+
+First 12 coordinates popped from the stack.
+(r, c)
+
+1.(6, 4)
+2.(6, 3)
+3.(6, 5)
+4.(7, 5)
+5.(8, 5)
+6.(8, 6)
+7.(8, 7)
+8.(8, 8)
+9.(7, 8)
+10.(6, 6)
+11.(5, 4)
+12.(4, 4)
+
+--------------Question 4--------------
+
+First 12 coordinates popped from the queue.
+(r, c)
+
+1.(6, 4)
+2.(5, 4)
+3.(6, 5)
+4.(6, 3)
+5.(4, 4)
+6.(6, 6)
+7.(7, 5)
+8.(3, 4)
+9.(4, 5)
+10.(8, 5)
+11.(2, 4)
+12.(4, 6)
+
+How do the two algorithms differ from each other? 
+
+	The two algorithms check and pop off coordinates in different orders. This is because one algorithm uses a stack and the other uses a queue. The algorithm
+that uses a stack pops off the last item that was put in whereas the algorithm that uses a queue pops off the first item that was put in. The algorithm itself
+was made to push in coordinates from the north, east, south, and west of the current position in that order. Since stacks pop off the last item in the stack, it
+first checks the coordinate that was put in last -- the western coordinate-- and proceeds from there. The algorithm using a queue first checks the item in front of
+the queue -- the northern coordinate -- and proceeds in that order instead. Other than checking coordinates in a different order, both of these algorithms work
+pretty much the same.
+
